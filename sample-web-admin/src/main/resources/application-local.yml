@@ -7,11 +7,16 @@ spring:
     driver-class-name: com.mysql.jdbc.Driver
     # url: jdbc:mysql://127.0.0.1:3306/sample?useSSL=false&characterEncoding=UTF-8
     # url: jdbc:mysql://192.168.99.100:3306/sample?useSSL=false&characterEncoding=UTF-8
-    # //////// seokjoon
-    url: jdbc:mysql://172.25.0.1:3306/sample?useSSL=false&characterEncoding=UTF-8
-    # ////////
+    # //////// seokjoon: BEGIN
+    url: jdbc:mysql://172.19.0.2:3306/sample?useSSL=false&characterEncoding=UTF-8
+    # //////// END
     username: root
     password: passw0rd
+  # //////// seokjoon: BEGIN
+  devtools:
+    livereload:
+      enabled: true
+  # //////// seokjoon: END
   resources:
     # 캐시의 무효화
     cache:
